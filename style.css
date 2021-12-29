@@ -1,0 +1,427 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to 
+    bottom right, rgb(65, 65, 180), white);
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.disclaimer {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+
+.disclaimer h1 {
+    font-size: 22px;
+    margin-bottom: -15px;
+    margin-top: -10px;
+}
+
+.disclaimer h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.social {
+    background-color: rgb(65, 65, 180);
+    width:50px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    margin-top: 35vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+}
+
+.social-icon {
+    margin-top:5px;
+    color: white;
+    fill: currentColor;
+}
+
+.whole {
+    box-shadow: 0 0 50px black;
+}
+/*phone design*/
+.mobile-outcase {
+    width: 270px;
+    background-color: black;
+    height: 510px;
+    border-radius: 10px;
+    position: relative;
+    margin-top:-20px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.mobile-incase {
+    width: 260px;
+    background-color: white;
+    height: 500px;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top : 4px;
+}
+
+.notch {
+    width:50px;
+    height: 22px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 7px;
+    position : absolute;
+    right: 0;
+    margin-right: 9px;
+}
+
+.screen-status-left {
+    position: absolute;
+    width: 265px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-left: 3px;
+    display: flex;
+    margin-top: 2px;
+}
+
+.screen-status-right {
+    position: absolute;
+    width: 205px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    right: 0;
+    top:0;
+    margin-top:-4px;
+    text-align: right;
+    display: flex;
+}
+
+.screen {
+    margin-top:-5px;
+}
+
+.icon {
+    width: 12px ;
+    margin-left : 7px;
+    margin-top : -9px;
+    color: white;
+    fill: currentColor;
+
+}
+
+.icon-right {
+    color: white;
+    fill: currentColor;
+    width: 18px;
+    margin-top:0.2px;
+    margin-left:3px;
+}
+
+.battery-bar {
+    font-size: 15px;
+    color: white;
+    margin-left: 3px;
+}
+
+.signal {
+    width: 12px;
+    margin-top: -5px;
+}
+
+.wifi {
+    width:15px;
+    margin-top: -5px;
+    margin-left: 60px;
+}
+
+.date {
+    font-size: 15px;
+    color: white;
+    margin-left:14px;
+    margin-top:7px;
+}
+
+.non-moving {
+    display: flex;
+}
+
+.speaker {
+    width:100%;
+    height: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speaker-notch {
+    width:80px;
+    height: 7px;
+    border-top:none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    position:absolute;
+    margin-top:-2px
+}
+
+.camera {
+    display: flex;
+    justify-content: space-between;
+    width:44px;
+    margin:auto
+}
+
+.camera-lens-1, .camera-lens-2 {
+    color: rgb(41, 39, 39);
+    fill: currentColor;
+    width:15px;
+    margin-top:3px;
+}
+
+
+/*top screen design*/
+.top-screen {
+    background-color: #307FE2;
+    height: 140px;
+    margin-top:-7px;
+    border-radius: 10px;
+}
+
+.logo img{
+    width: 40%;
+    margin-top: 25px;
+    margin-left:10px;
+}
+
+.quick-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.search-bar {
+    margin-left: 10px;
+}
+
+.input-search {
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    width: 155px;
+    font-size: 10px;
+}
+
+.input-search-img {
+    position: absolute;
+    left: 0;
+    margin-left: 15px;
+    margin-top:5px;
+    color: rgb(40, 40, 40);
+    fill: currentColor;
+}
+
+.quick-icon-wrapper {
+    color: white;
+    fill: currentColor;
+    margin-left: 8px;
+    margin-top:5px;
+}
+
+.quick-icon {
+    color: white;
+    fill: currentColor;
+    margin-right: 9px;
+}
+/*banner screen design*/
+.banner {
+    position: absolute;
+    top: 0;
+    margin-top:140px;
+    width: 100%;
+    height: 100px;
+}
+
+.banner-pict {
+    width: 240px;
+    margin-top:-25px;
+    text-align: center;
+}
+
+.banner-pict img {
+    width:100%;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.banner-circle {
+    position: relative;
+    margin-top:-7px;
+    top: 0;
+    margin-left:10px;
+}
+
+.banner-circle-1 {
+    width: 7px;
+    color:rgb(221, 165, 113);
+    fill: currentColor;
+    margin-right: 4px;
+}
+
+.banner-circle-2{
+    width: 7px;
+    color:grey;
+    fill: currentColor;
+    margin-right: 4px;
+}
+
+/*bottom screen design*/
+.categories {
+
+    width: 90%;
+    margin-top:58px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.categories-bottom {
+    width: 90%;
+    margin-top:-4px;
+    margin-left: 14px;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.category-bottom {
+    width:50px;
+    text-align: center;
+    margin-left: -5.2px;
+}
+
+.category-bottom2 {
+    width:50px;
+    text-align: center;
+}
+
+.category-bottom3 {
+    width:50px;
+    text-align: center;
+    margin-right: 56px;
+}
+
+.category {
+    width:50px;
+    text-align: center;
+}
+
+.category-name {
+    font-size: 10px;
+    font-family: "sen";
+    margin-top: 5px;
+}
+
+.icon-category {
+    width: 50px;
+    box-shadow: 0 0 5px;
+    border-radius: 5px;
+}
+
+.icon-category img {
+    width: 40px;
+}
+
+/*product list*/
+.product-wrapper {
+    margin-top : -15px;
+    margin-left: 10px;
+}
+
+h4 {
+    font-size: 11px;
+    font-family: "sen";
+}
+
+.category-name {
+    font-size: 10px;
+    font-family: "sen";
+    margin-top: 5px;
+}
+
+.product-pict img {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.product-container {
+    display: flex;
+}
+
+.product-category {
+    margin-right:5px
+}
+/*footer design*/
+/*itemku footer*/
+.footer-icon {
+    border-top: 1px solid grey;
+    padding-top:5px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 25px;
+    height: 35px;
+    width: 100%;
+    background-color: white;
+}
+
+.itemku-icon {
+    margin-top:-6px;
+}
+
+.icon-menu-wrapper {
+    text-align: center;
+}
+
+.icon-caption {
+    font-size: 10px;
+    font-family: "sen";
+    margin-top: 3px;
+}
+
+/*phone button*/
+.bottom-button {
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6px;
+}
+
+.bottom-icon {
+    color: white;
+    fill: currentColor;
+    width: 15px;
+}
+
+.hamburger{
+    transform: rotate(90deg);
+}
